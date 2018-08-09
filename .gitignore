@@ -1,0 +1,6 @@
+/bin
+/etc
+/solr
+/src
+target/
+config/dspace.cfg
