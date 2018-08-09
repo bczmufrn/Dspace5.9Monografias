@@ -1,0 +1,24 @@
+# Workflow task email message
+#
+# {0}  Title of submission
+# {1}  Name of collection
+# {2}  submitter's name
+# {3}  Description of task
+# {4}  link to 'my DSpace' page
+#
+Subject: LAHMED: você tem uma nova tarefa
+
+Um novo documento foi submetido:
+
+Título:        {0}
+Coleção:   {1}
+Submetido por: {2}
+
+{3}
+
+Para pegar esta tarefa, acesse a sua área pessoal "Meu espaço"
+ou no endereço:  {4}
+
+Muito obrigado!
+
+LAHMED - Laboratório de História e Memória da Educação

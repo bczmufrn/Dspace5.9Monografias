@@ -18,6 +18,8 @@
 			<list>
 				<value>news-top.html</value>
 				<value>news-side.html</value>
+				<value> news-top_pt_BR.html </value>
+				<value> news-side_pt_BR.html </value>
 			</list>
 		</property>	
 	</bean>

@@ -1,0 +1,25 @@
+# E-mail sent with the information filled out in a suggest form.
+#
+# Parameters: {0} recipient name
+#             {1} sender name
+#             {2} repository name
+#             {3} item title
+#             {4} item handle URI
+#             {5} item local URL - may be used in lieu of {4} if not using handle server
+#             {6} collection name
+#             {7} sender message
+# See org.dspace.core.Email for information on the format of this file.
+#
+Subject: Nova sugestão em LAHMED
+
+Olá {0}:
+
+{1} requested we send you this email regarding an item available in {2}.
+{1} solicitou que nós enviassemos esse email com relação a um item disponível em {2}.
+
+Título: {3}
+Localização: {5}
+Na coleção: {6}
+Mensagem pessoal: {7}
+
+LAHMED - Laboratório de História e Memória da Educação
