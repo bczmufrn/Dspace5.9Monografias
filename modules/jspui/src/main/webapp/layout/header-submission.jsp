@@ -23,7 +23,6 @@
 <%@ page import="org.dspace.app.util.Util" %>
 <%@ page import="javax.servlet.jsp.jstl.core.*" %>
 <%@ page import="javax.servlet.jsp.jstl.fmt.*" %>
-<%@ page import="org.dspace.core.NewsManager" %>
 
 <%
     String title = (String) request.getAttribute("dspace.layout.title");
@@ -41,15 +40,12 @@
     String dsVersion = Util.getSourceVersion();
     String generator = dsVersion == null ? "DSpace" : "DSpace "+dsVersion;
     String analyticsKey = ConfigurationManager.getProperty("jspui.google.analytics.key");
-
-    //Adicionada para mostrar a notícia de topo na página inicial
-    String topNews = NewsManager.readNewsFile(LocaleSupport.getLocalizedMessage(pageContext, "news-top.html"));
 %>
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title><%= siteName %>: <%= title %></title>
+        <title><%= title %> | <%= siteName %></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="Generator" content="<%= generator %>" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -89,8 +85,6 @@
 	<script type='text/javascript' src='<%= request.getContextPath() %>/static/js/holder.js'></script>
 	<script type="text/javascript" src="<%= request.getContextPath() %>/utils.js"></script>
     <script type="text/javascript" src="<%= request.getContextPath() %>/static/js/choice-support.js"> </script>
-    <script type="text/javascript" src="<%= request.getContextPath() %>/static/js/customiza.js"> </script>
-    <!-- <script type="text/javascript" src="<%= request.getContextPath() %>/static/graficos/Chart.min.js"> </script> -->
 
     <%--Gooogle Analytics recording.--%>
     <%
@@ -151,37 +145,14 @@
 </header>
 
 <main id="content" role="main">
-<div class="container banner">
-	<div class="row">
-		<!--<div class="col-md-9 brand">
-		<h1><fmt:message key="jsp.layout.header-default.brand.heading" /></h1>
-        <fmt:message key="jsp.layout.header-default.brand.description" /> 
-        </div>-->
-		   <div class="col-md-4" id="logori"><a href="<%= request.getContextPath() %>/"><img style="margin-left: 0px; border-left: 0px;"src="<%= request.getContextPath() %>/image/logo.gif" title="Biblioteca Digital de Monografias da Universidade Federal do Rio Grande do Norte - UFRN" alt="Biblioteca Digital de Monografias da Universidade Federal do Rio Grande do Norte - UFRN"></a>
-           </div>
-            <%
-
-                if(request.getServletPath().equals("/home.jsp"))
-                {
-            %>
-               <div class="col-md-8" style="margin-top: 30px;" id="topnews">
-                    <%= topNews %>
-               </div>
-            <%
-                }
-            %>
-	</div>
-</div>	
-
                 <%-- Location bar --%>
 <%
-
-    if(locbar && !request.getServletPath().equals("/home.jsp"))
+    if (locbar)
     {
 %>
-    <div class="container">
+<div class="container">
                 <dspace:include page="/layout/location-bar.jsp" />
-    </div>                
+</div>                
 <%
     }
 %>

@@ -13,12 +13,12 @@
 Subject: DSpace: Internal Server Error
 An internal server error occurred on {0}:
 
-Date:       {1}
-Session ID: {2}
-User:       {5}
-IP address: {6}
+Data:       {1}
+Sessão ID: {2}
+Usuário:       {5}
+Endereço IP: {6}
 
 {3}
 
-Exception:
+Exceção:
 {4}

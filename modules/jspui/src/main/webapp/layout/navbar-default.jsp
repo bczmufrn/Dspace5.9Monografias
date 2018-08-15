@@ -122,37 +122,37 @@
       <!-- Lista de documentos adicionada por Anderson em 09/06/2015 -->
 
 		  <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sobre a BDM<b class="caret"></b></a>
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><fmt:message key="jsp.layout.navbar-default.about_BDM"/><b class="caret"></b></a>
              <ul class="dropdown-menu" role="menu">
-        				<li><a href="http://monografias.ufrn.br:8080/jspui/documentos/Politica_de_informacao_da_BDM_UFRN.pdf" target="_blank">Política de Informação</a></li>
-                <li><a href="http://monografias.ufrn.br:8080/jspui/documentos/Fluxo_Geral_BDM.pdf" target="_blank">Fluxo da BDM</a></li>
-                <li><a href="http://monografias.ufrn.br:8080/jspui/documentos/FAQ-MONOGRAFIAS_2018.docx" target="_blank">FAQ da BDM</a></li>
-                <li><a href="http://monografias.ufrn.br:8080/jspui/documentos/historico_bdm.pdf" target="_blank">Histórico da BDM</a></li>
-                <li><a href="http://monografias.ufrn.br:8080/jspui/documentos/Portaria-Comissao-Gestora.pdf" target="_blank">Comissão Gestora</a></li>
+        				<li><a href="<%= request.getContextPath() %>/documentos/Politica_de_informacao_da_BDM_UFRN.pdf" target="_blank"><fmt:message key="jsp.layout.navbar-default.information_policy"/></a></li>
+                <li><a href="<%= request.getContextPath() %>/documentos/Fluxo_Geral_BDM.pdf" target="_blank"><fmt:message key="jsp.layout.navbar-default.flow_BDM"/></a></li>
+                <li><a href="<%= request.getContextPath() %>/documentos/FAQ-MONOGRAFIAS_2018.docx" target="_blank"><fmt:message key="jsp.layout.navbar-default.faq_BDM"/></a></li>
+                <li><a href="<%= request.getContextPath() %>/documentos/historico_bdm.pdf" target="_blank"><fmt:message key="jsp.layout.navbar-default.history_BDM"/></a></li>
+                <li><a href="<%= request.getContextPath() %>/documentos/Portaria-Comissao-Gestora.pdf" target="_blank"><fmt:message key="jsp.layout.navbar-default.managment_committee"/></a></li>
 
                 <li class="divider"></li>
-				        <li class="dropdown-header">Tutoriais:</li>
+				        <li class="dropdown-header"><fmt:message key="jsp.layout.navbar-default.tutorials"/></li>
                 <li class="dropdown-submenu">
-                  <a class="test" tabindex="-1" href="#">Tutorial para cadastro <span class="caret"></span></a>
+                  <a class="test" tabindex="-1" href="#"><fmt:message key="jsp.layout.navbar-default.tutorial_registration"/> <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="http://monografias.ufrn.br:8080/jspui/documentos/TUTORIAL_CADASTRO_BDM_UFRN.ppsx" target="_blank">PPS</a></li>
-                    <li><a href="http://monografias.ufrn.br:8080/jspui/documentos/TUTORIAL_CADASTRO_BDM_UFRN.pdf" target="_blank">PDF</a></li>
+                    <li><a href="<%= request.getContextPath() %>/documentos/TUTORIAL_CADASTRO_BDM_UFRN.ppsx" target="_blank">PPS</a></li>
+                    <li><a href="<%= request.getContextPath() %>/documentos/TUTORIAL_CADASTRO_BDM_UFRN.pdf" target="_blank">PDF</a></li>
                   </ul>
                 </li>
 
                 <li class="dropdown-submenu">
-                  <a class="test" tabindex="-1" href="#">Tutorial para depósito <span class="caret"></span></a>
+                  <a class="test" tabindex="-1" href="#"><fmt:message key="jsp.layout.navbar-default.tutorial_deposit"/> <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="http://monografias.ufrn.br:8080/jspui/documentos/TUTORIAL_DEPOSITO_BDM_UFRN.ppsx" target="_blank">PPS</a></li>
-                    <li><a href="http://monografias.ufrn.br:8080/jspui/documentos/TUTORIAL_DEPOSITO_BDM_UFRN.pdf" target="_blank">PDF</a></li>
+                    <li><a href="<%= request.getContextPath() %>/documentos/TUTORIAL_DEPOSITO_BDM_UFRN.ppsx" target="_blank">PPS</a></li>
+                    <li><a href="<%= request.getContextPath() %>/documentos/TUTORIAL_DEPOSITO_BDM_UFRN.pdf" target="_blank">PDF</a></li>
                   </ul>
                 </li>
 
                 <li class="dropdown-submenu">
-                  <a class="test" tabindex="-1" href="#">Tutorial para validação de arquivo <span class="caret"></span></a>
+                  <a class="test" tabindex="-1" href="#"><fmt:message key="jsp.layout.navbar-default.tutorial_file_validation"/> <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="http://monografias.ufrn.br:8080/jspui/documentos/TUTORIAL_VALIDACAO_ARQUIVO_BDM_UFRN.ppsx" target="_blank">PPS</a></li>
-                    <li><a href="http://monografias.ufrn.br:8080/jspui/documentos/TUTORIAL_VALIDACAO_ARQUIVO_BDM_UFRN.pdf" target="_blank">PDF</a></li>
+                    <li><a href="<%= request.getContextPath() %>/documentos/TUTORIAL_VALIDACAO_ARQUIVO_BDM_UFRN.ppsx" target="_blank">PPS</a></li>
+                    <li><a href="<%= request.getContextPath() %>/documentos/TUTORIAL_VALIDACAO_ARQUIVO_BDM_UFRN.pdf" target="_blank">PDF</a></li>
                   </ul>
                 </li>
 

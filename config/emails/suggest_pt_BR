@@ -10,7 +10,7 @@
 #             {7} sender message
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: Nova sugestão em LAHMED
+Subject: Nova sugestão em BDM
 
 Olá {0}:
 
@@ -22,4 +22,4 @@ Localização: {5}
 Na coleção: {6}
 Mensagem pessoal: {7}
 
-LAHMED - Laboratório de História e Memória da Educação
+BDM - Biblioteca Digital de Monografias

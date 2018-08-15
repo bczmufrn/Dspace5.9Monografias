@@ -4,13 +4,13 @@
 # {1}  Name of collection
 # {2}  handle
 #
-Subject: LAHMED: Submissão aprovada
+Subject: BDM: Submissão aprovada
 
 Você submeteu: {0}
 
 Na coleção: {1}
 
-Sua submissão foi aceita no repositório do LAHMED,
+Sua submissão foi aceita no repositório BDM,
 e foi associada ao seguinte identificador:
 {2}
 
@@ -18,4 +18,4 @@ Utilize este identificador quando for referenciar a sua submissão.
 
 Muito obrigado!
 
-LAHMED - Laboratório de História e Memória da Educação
+BDM - Biblioteca Digital de Monografias

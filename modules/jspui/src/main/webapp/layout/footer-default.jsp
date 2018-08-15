@@ -50,8 +50,9 @@
 				
 	            <div id="footer_feedback" class="pull-right">                                    
                     <p class="text-muted">
-					<span class="glyphicon glyphicon-envelope"></span> <a target="_blank" href="/jspui/feedback/form.jsp">Comentários</a>&nbsp;|
-					<span class="glyphicon glyphicon-stats"></span> <a href="/jspui/statistics?level=general&amp;type=access&amp;page=downviews-series">Estatísticas</a>&nbsp;|<span class="glyphicon glyphicon-user"></span> <a target="_blank" href="/jspui/feedback/equip/equipe.jsp">Equipe Técnica</a>
+					<span class="glyphicon glyphicon-envelope"></span> <a target="_blank" href="/jspui/feedback/form.jsp"><fmt:message key="jsp.layout.footer-default.comments"/></a>&nbsp;|
+                    <span class="glyphicon glyphicon-stats"></span> <a href="/jspui/statistics?level=general&amp;type=access&amp;page=downviews-series"><fmt:message key="jsp.layout.footer-default.statistics"/></a>&nbsp;|
+                    <span class="glyphicon glyphicon-user"></span> <a target="_blank" href="/jspui/feedback/equip/equipe.jsp"><fmt:message key="jsp.layout.footer-default.technical_team"/></a>
 					<br><a target="_blank" href="http://www.ufrn.br/">Universidade Federal do Rio Grande do Norte</a> Copyright&nbsp;©&nbsp;2015 
                     <a href="/htmlmap"></a></p>
                 </div>

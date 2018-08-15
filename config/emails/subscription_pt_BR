@@ -4,9 +4,9 @@
 # Parameters: {0} is the details of the new collections and items
 # See org.dspace.core.Email for information on the format of this file.
 #
-Subject: LAHMED - Novo item submetido
+Subject: BDM - Novo item submetido
 Novos itens estão disponíveis nas coleções que você segue
 
 {0}
 
-LAHMED - Laboratório de História e Memória da Educação
+BDM - Biblioteca Digital de Monografias
